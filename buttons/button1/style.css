@@ -1,0 +1,40 @@
+.wrapper {
+    background: #93C0A4;
+    color: white;
+    border-radius: 0.9em;
+    border: 0;
+    display: grid;
+    align-items: center;
+    position: relative;
+    height: 3.45em;
+    width: 10em;
+    padding-right: 3.2em;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  
+  .wrapper .icon {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background: #2b2b2a;
+    position: absolute;
+    height: 3em;
+    width: 3em;
+    border-radius: 0.7em;
+    right: 0.3em;
+    transition: all 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  }
+  
+  .wrapper:hover .icon {
+    width: calc(100% - 0.6em);
+  }
+  
+  .wrapper .icon svg {
+    width: 0.8em;
+  }
+  
+  .wrapper:hover .icon svg {
+    width: 1.2em;
+  }
